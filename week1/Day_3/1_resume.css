@@ -1,0 +1,74 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: Cascadia Code;
+}
+
+.top-bar {
+  border: 3px solid;
+  border-bottom: none;
+}
+
+.container {
+  width: 550px;
+  height: 700px;
+  border: 3px solid;
+  padding: 30px 50px 30px 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* grid-template-rows: repeat(4, 1fr); */
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  border-radius: 100px;
+}
+
+.red, .blue, .yellow {
+    border-radius: 50px;
+}
+
+.red {
+  background-color: rgb(143, 88, 82);
+  display: flex;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verd;
+  color: white;
+}
+
+div h1 {
+    margin: 25px;
+}
+
+div h3 {
+    color:rgb(255, 251, 251);
+    margin: 25px;
+}
+
+div p {
+    color:rgb(255, 251, 251);
+    margin: 25px;
+}
+
+.blue {
+  background-color: rgb(121, 169, 185);
+}
+
+.yellow {
+  background-color: lightgoldenrodyellow;
+  grid-column: 1 / span 2;
+}
+
+div .img {
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(247, 240, 239);
+}
