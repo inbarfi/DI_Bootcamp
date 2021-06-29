@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond; 
+}
+
+nav {
+    background-color:black;
+}
+
+body {
+    background-color:black;
+}
+
+ul{
+    text-align: right;
+    margin:10px;
+}
+
+li{
+    display:inline-block;
+    /* text-align:right; */
+    padding:15px;
+    font-size:22px;
+    font-weight: bolder;
+    /* list-style: none; */
+}
+
+.background_image {
+    background: url(https://wallpaperaccess.com/full/1075427.jpg) no-repeat 0 60%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+    margin: 0;
+}
+
+h1 {
+    background-color: none;
+    font-size: 90px;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+nav {
+    /* border:none; */
+    /* position:sticky; */
+    /* padding: 2px; */
+} */
+
+/* 
+.nav {
+    position: fixed;
+    top: 0;
+} */
+
+/* nav ul.nav {
+    margin-right: 15%;
+} */
+
+/* ul {
+    list-style: none;
+    display: inline;
+
+}
+
+.left_nav {
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.right_nav {
+    display: inline;
+    margin-left: 80%;
+    border: none;
+    padding: 10px;
+} */

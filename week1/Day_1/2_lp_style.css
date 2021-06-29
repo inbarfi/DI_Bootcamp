@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(224, 219, 219);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.nav {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.left_nav, .right_nav {
+    font-size: 22px;
+}
+
+.left_nav {
+    display: inline;
+    padding-left: 40px;
+    padding-top: 300px;
+}
+
+.right_nav {
+    display: inline;
+    margin-left: 80%;
+}
+
+button {
+    background-color: rgb(58, 98, 228);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+button:hover {
+        background:rgb(240, 231, 231);
+        color: rgb(58, 98, 228);
+}
+
+.background_image {
+    background: url(https://images.pexels.com/photos/1482193/pexels-photo-1482193.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500) no-repeat 0 60%;
+    display: block;
+    background-size: cover;
+    background-position: center;
+}
+
+.background_image_text {
+    size: 150px;
+    padding: 10%;
+    color: white;
+    text-align: center;
+}
+
+.input_email {
+    width: 350px;
+    height: 25px;
+}
+
+.sign_up {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.middle {
+    margin: auto;
+    width: 50%;
+}
+
+.signs_container {
+    display: flex;
+    align-self: center;
+    align-items:baseline;
+}
+.signs_div {
+    display: inline-block;
+    align-items:center;
+}
+.signs {
+    font-size: 80px;
+    color: rgb(58, 98, 228);
+    margin-inline: 60px;
+    padding: 40px;
+}
+h3 {
+    text-align: center;
+}
+.gray_text {
+    max-width: 160%;
+    text-align: center;
+    color: gray;
+}
+
+.inline_spacer {
+    padding: 40px;
+    display: inline-block;
+}
