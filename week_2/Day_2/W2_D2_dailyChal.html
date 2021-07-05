@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W2_D2_Daily Challenge: Not Bad</title>
+</head>
+<body>
+    <script>
+        let sentence = "The movie is not that bad, I like it";
+        let sentenceSplit = sentence.split(' ');
+        console.log(sentenceSplit);
+        let wordNot = sentenceSplit.indexOf("not");
+        console.log(wordNot);
+        let wordBad = sentenceSplit.indexOf("bad,");
+        console.log(wordBad);
+        if (wordBad > wordNot) {
+            let spliceOne = sentenceSplit.splice(3,1);
+            console.log(sentenceSplit);
+            let spliceTwo = sentenceSplit.splice(4,1,"good,");
+            console.log(sentenceSplit.join(' '));
+        } else {
+          console.log(sentence);  
+        };
+    </script>
+</body>
+</html>
