@@ -71,14 +71,44 @@
         // for (let key in guestList) {
         //     // console.log("name:", key);
         //     console.log(`Hi! I'm ${key}, and I'm from ${guestList[key]}.`)
-        //     // console.log("Name: ", [key]); why does it also gives the names?
+        //     // console.log("Name: ", [key]); why does it also give the names?
         // };
      
-        // Exercise 5 : Family
-        // continue 
+        // // Exercise 5 : Family
+        // let family = {
+        //     mom: "Lora",
+        //     dad: "Josh",
+        //     Kid1: "Lori",
+        //     Kid2: "Ronni",
+        //     Dog: "rax"
+        // }
+        // for (let key in family) {
+        //     console.log("key", key);
+        //     console.log("Value", family[key]);
+        // }
 
 
+        // // Exercise 6
+        // let details = {
+        // my: 'name',
+        // is: 'Rudolf',
+        // the: 'raindeer'
+        // }
 
+        // console.log(`my ${details.my} is ${details.is} ${details.the}.`);
+
+        // Exercise 7 : Secret Group
+        let names = ["Jack", "Philip", "Sarah", "Amanda", "Bernard", "Kyle"]
+        // secret = names[0][0];
+        // console.log(secret);
+        // the first letter of each of their names sorted in alphabetical order
+         let secret = ""
+         for (let i=0; i<names.length; i++) {
+            secret += names[i][0];  
+         } 
+         secret = (secret.split("").sort().join());
+         console.log(secret);
+         console.log(typeof(secret));
 
     </script>
 </body>

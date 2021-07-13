@@ -35,15 +35,30 @@
 
        
         // function infoAboutPerson(personName, personAge, personFavoriteColor, personHobbies) {
-        //     // console.log(`Your name is ${personName}, your age is ${personAge}, your fav color is ${personFavoriteColor}.`);
+        //     console.log(`Your name is ${personName}, your age is ${personAge}, your fav color is ${personFavoriteColor}.`);
         //     let hobbiesLoop = ""
         //     for (let i = 0; i < personHobbies.length; i++) {
         //         hobbiesLoop += " " + personHobbies[i];
         //     }
         //        return hobbiesLoop; 
-        //     //  Todo:  use return but get each hobby on a different line not on the same row. 
         // };
-        // // infoAboutPerson("David", 45, "blue")
+        //  infoAboutPerson("David", 45, "blue")
+
+        //  console.log the person’s hobbies one by one (ie. loop through the array of hobbies).
+
+         function infoAboutPerson(personName, personAge, personFavoriteColor, personHobbies) {
+            // console.log(`Your name is ${personName}, your age is ${personAge}, your fav color is ${personFavoriteColor}.`);
+            let hobbiesLoop = "";
+            for (let i = 0; i < personHobbies.length; i++) {
+                hobbiesLoop = personHobbies[i];
+                // console.log(hobbiesLoop);
+            }  return personHobbies; // returning an array 
+        }
+        console.log(infoAboutPerson("David", 45, "blue", ["tennis", "painting"]));
+
+
+
+
         // // part-3 - console.log the person’s hobbies one by one (ie. loop through the array of hobbies)
         // console.log(infoAboutPerson("David", 45, "blue", ["tennis", "painting"]))
         // console.log(infoAboutPerson("Josh", 12, "yellow", ["videoGame", "hanging out with friends", "playing cards"]))
@@ -238,18 +253,60 @@
 
         // console.log(totalVacationCost());
 
-        // Todo:
-        // 4) 6.Bonus: Instead of using a prompt inside the 3 first functions, only use a prompt inside the totalVacationCost() function.
-        
-        // function totalVacationCost() {
-        //     let vacHotel = hotelCost(10);
-        //     let vacPlane = planeRideCost(10);
-        //     let vacCar = rentalCarCost(10);
+       
+        // // 6.Bonus: Instead of using a prompt inside the 3 first functions, only use a prompt inside the totalVacationCost() function.
+
+        // function hotelCost() {
+        //     // nights = prompt("How many nights?");
+        //     let nights = userInput[0];
+        //     nightsNum = parseInt(nights);
+        //     if (isNaN(nights)) {
+        //         prompt("How many nights?");
+        //     }
+        //     let totalCost = 140 * nightsNum;
+        //     return totalCost; 
+        // };
+        // // console.log(hotelCost());
+
+     
+        // function planeRideCost() {
+        // //     destination = prompt("where are you flying to?");
+        //        let destination = userInput[1];
+        //     if (destination == "London") {
+        //         return (`flight ticket is: 183$`);
+        //     } else if (destination == "Paris") {
+        //         return (`220$`);
+        //     } else return (`flight ticket is: 300$`);
+        // };
+
+        // // console.log(planeRideCost());
+
+        // // // 3)
+        // function rentalCarCost() {
+        // //  days = prompt("Write number of days you'd like to rent the car");
+        //     let days = userInput[2];
+        //     if (isNaN(days)) {
+        //         prompt("where are you flying to?");
+        //     } 
+        //     let daysNum = parseInt(days);
+        //     let costCar = daysNum * 40;
+        //     return costCar;
+        // };
+
+        // // console.log(rentalCarCost());
+
+      
+        //  function totalVacationCost() {
+        //     userInput = prompt("write answers sepearated with commas, hotel number of nights, country, number of days renting a car").split(",");
+        //     console.log(userInput);
+        //     let vacHotel = hotelCost(userInput[0]);
+        //     let vacPlane = planeRideCost(userInput[1]);
+        //     let vacCar = rentalCarCost(userInput[2]);
         //     return (`The car cost: ${vacCar}, the hotel cost: ${vacHotel} the plane tickets cost: ${vacPlane}.`);
         // };
 
         // console.log(totalVacationCost());
-
+    
 
     </script>
 </body>
