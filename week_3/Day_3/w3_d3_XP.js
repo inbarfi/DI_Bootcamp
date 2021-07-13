@@ -14,11 +14,13 @@ console.log(containerBoxWidth);
 
 function move() {
     id = setInterval(function(){
-        if (left > containerBoxWidth - 60)
-            stop()
-        left += 5;
+        if (left > containerBoxWidth - 60) {
+            stop(); 
+            // return; //no need for return if we put the else. set return so it won't go to the else part - it takes time to stop it and in this time it goes to the else part.
+        } 
+        else { left += 5;
         // box.style.left = left + 'px';
-        animateBox.style.left = `${left}px`
+        animateBox.style.left = `${left}px` }
     }, 5)
 }
 
@@ -43,7 +45,7 @@ box1.addEventListener('dragstart', dragstart_fun);
 box2.addEventListener('drop', drop_fun);
 box2.addEventListener('dragover', dragover_fun)
 function dragover_fun(e){
-    e.preventDefault(); //important.
+    e.preventDefault(); //important because the default is to reject elements. read more about it 
     console.log('dragover');
     e.dataTransfer.dropEffect = 'link'; //important! 
 }
