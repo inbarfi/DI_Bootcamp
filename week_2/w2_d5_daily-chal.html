@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let input = parseInt(prompt("How many bottles of beers did you drink?"));
+        let round = 0
+        for (round=0; round<=input; round++) {
+        // console.log(typeof(input));
+        newInput = input - round
+        if (newInput == 0) {
+            console.log("Out of bottles"); 
+        } else {
+            console.log(`${newInput} bottles of beer on the wall`);
+            console.log(`${newInput} bottles of beer`);
+            console.log(`Take 1 down, pass it around`);
+        }
+        }
+        
+        
+        
+// input
+// input number
+// console.log song for this input
+// substract 1 from input and change the number on the song
+// substract 2 
+// which is like substracting i=0 i=1 and then i=2 (starting from 0)
+// this means, i=0 is first time, and then increasing i by one and substracting by i
+// for (i=0; i<=input; i++) {
+//     input-i;
+// }
+// first round: 99-0 = 99
+
+
+
+    </script>
+</body>
+</html>
