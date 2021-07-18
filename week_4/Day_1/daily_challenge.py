@@ -19,14 +19,16 @@ elif user_input_length > 10:
 print(f"first character is: {user_input[0]}, last is: {user_input[-1]}")
 
 #3 - why does it print it weirdly?
-print(f"{user_input[0]} \n {user_input[1]} \n {user_input[2]} \n {user_input[3]} \n {user_input[4]}")
-
+#print(f"{user_input[0]} \n {user_input[1]} \n {user_input[2]} \n {user_input[3]} \n {user_input[4]}")
+for i in user_input:
+    user_input = i
+    print(user_input)
 # =============================================================================
 # #4
 # import random
 # inbar = "inbar"
-# inbarr = list(inbar)
-# print(inbarr)
+# inbar_list = list(inbar)
+# print(inbar_list)
 # #print(random.shuffle(inbarr))
 # =============================================================================
 
