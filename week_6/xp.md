@@ -1,5 +1,4 @@
-@author: Inbar
-"""
+--xp
 
 -- CREATE TABLE items(
 --  id SERIAL PRIMARY KEY,
