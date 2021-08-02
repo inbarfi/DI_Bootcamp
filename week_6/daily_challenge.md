@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Aug  2 16:29:32 2021
-
-@author: Inbar
-"""
-
 -- daily_challenge
 
 CREATE TABLE actors(
